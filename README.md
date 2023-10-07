@@ -15,6 +15,7 @@ This is a Solidity smart contract that implements a basic token called MyToken (
 4. balances: A mapping that associates addresses with token balances. Each address's balance is stored as a positive integer.
 5. mint: A function that mints new tokens. It takes an address (_address) and a value (_value) as parameters. It increases the total supply by the specified value and adds that value to the balance of the specified address.
 6. burn: A function that burns existing tokens. It takes an address (_address) and a value (_value) as parameters. If the balance of the specified address is greater than or equal to the value, it deducts the value from the total supply and reduces the balance of the specified address.
+Please note that this contract is a basic implementation and may require additional functionality and security measures for use in production environments.
 
 # License
 This contract is not licensed.
